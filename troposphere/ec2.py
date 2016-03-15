@@ -168,6 +168,7 @@ class Instance(AWSObject):
         'Tenancy': (basestring, False),
         'UserData': (basestring, False),
         'Volumes': (list, False),
+        'VpcId': (basestring, False),
     }
 
 
